@@ -2,10 +2,13 @@
 Este documento serve como um guia completo para os requisitos, instalação e execução da aplicação de separação de áudio desenvolvida em Python. A aplicação utiliza a biblioteca Spleeter para separar músicas em stems (voz, bateria, baixo, etc.) e o PyQt6 para a interface gráfica.
 # 1. Requisitos do Sistema:
 
-Para que a aplicação funcione corretamente, é necessário ter as seguintes ferramentas instaladas:
-Python: É crucial utilizar a versão Python 3.11 ou superior, pois as dependências utilizadas, especialmente o PyQt6-Multimedia, têm requisitos de versão específicos.
+Para que a aplicação funcione corretamente, é necessário ter as seguintes ferramentas instaladas: 
+* Python: É crucial utilizar a versão Python 3.11 ou superior, pois as dependências utilizadas, especialmente o PyQt6-Multimedia, têm requisitos de versão específicos.
+
 pip: O gerenciador de pacotes do Python. Ele já vem instalado com o Python.
+
 FFmpeg: Uma ferramenta externa essencial para processar e misturar arquivos de áudio. Ela deve ser baixada e o caminho para o seu executável deve ser adicionado à variável de ambiente PATH do sistema.
+
 Link para Download: https://ffmpeg.org/download.html
 Modelos da Spleeter: Os modelos pré-treinados para a separação de áudio, que devem ser baixados separadamente.
 Link para Download: https://github.com/deezer/spleeter/releases (Baixar o arquivo 4stems.tar.gz da versão v1.4.0)
